@@ -14,6 +14,7 @@
 		79464788204E9748004A0C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79464786204E9748004A0C5C /* LaunchScreen.storyboard */; };
 		7946478B204E9748004A0C5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7946478A204E9748004A0C5C /* main.m */; };
 		79464795204E9748004A0C5C /* XPanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79464794204E9748004A0C5C /* XPanTests.m */; };
+		794647A1204E97B2004A0C5C /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 794647A0204E97B2004A0C5C /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		79464790204E9748004A0C5C /* XPanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79464794204E9748004A0C5C /* XPanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPanTests.m; sourceTree = "<group>"; };
 		79464796204E9748004A0C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7946479F204E97B2004A0C5C /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		794647A0204E97B2004A0C5C /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,13 @@
 		7946477A204E9748004A0C5C /* XPan */ = {
 			isa = PBXGroup;
 			children = (
+				794647A2204E9870004A0C5C /* Category */,
 				7946477B204E9748004A0C5C /* AppDelegate.h */,
 				7946477C204E9748004A0C5C /* AppDelegate.m */,
 				7946477E204E9748004A0C5C /* ViewController.h */,
 				7946477F204E9748004A0C5C /* ViewController.m */,
+				7946479F204E97B2004A0C5C /* TestView.h */,
+				794647A0204E97B2004A0C5C /* TestView.m */,
 				79464781204E9748004A0C5C /* Main.storyboard */,
 				79464784204E9748004A0C5C /* Assets.xcassets */,
 				79464786204E9748004A0C5C /* LaunchScreen.storyboard */,
@@ -101,6 +107,13 @@
 				79464796204E9748004A0C5C /* Info.plist */,
 			);
 			path = XPanTests;
+			sourceTree = "<group>";
+		};
+		794647A2204E9870004A0C5C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794647A1204E97B2004A0C5C /* TestView.m in Sources */,
 				79464780204E9748004A0C5C /* ViewController.m in Sources */,
 				7946478B204E9748004A0C5C /* main.m in Sources */,
 				7946477D204E9748004A0C5C /* AppDelegate.m in Sources */,
